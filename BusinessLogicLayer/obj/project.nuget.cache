@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vCnrrOLD0azZrLMMH8g3QlVg0Os23IPI9UYtRQ9ahLVjhZeibjjQFDiY+DZzLI16ZPw+JC7MujCrmKrApxrEWg==",
+  "dgSpecHash": "Z2uSwXn9oKbliH+UelFo9J4XeAh/BvId35oB012s9Z/dKSgjNQpbZ/Ufge63ZurHGhfiS0YfZMF0NLU/1wbnAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL_NQViệt\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL1\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

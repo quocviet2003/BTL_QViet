@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+f/Qrxe0cxRAyRxIQyn4jjfe3bHpfwyPjpB1b4fXUQfl345SU+PJD9MiKXLhzwNx/m2l1jYxQ3JEySsIvMPC2Q==",
+  "dgSpecHash": "JJYyqmDnlMsEhSWxdD1IDAMPNdMYsqJiCcY2nMKr5RluKOfdTvqUf/tvpf/JahCOMOQPVK5vOPUKoZKU77Iu1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL_NQViệt\\API_BTL\\API_BTL.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL1\\API_BTL\\API_BTL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.22\\microsoft.aspnetcore.authentication.jwtbearer.6.0.22.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

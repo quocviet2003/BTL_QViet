@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eTYYLehXyyqpQDaoYbjIMpSurvGIytMaIA++3a6WD5VXv3NQ+FWbto5LwLjhWS6+L+us2pd/T5UqGWK4/i3VTA==",
+  "dgSpecHash": "KU79OzABWzPRr+io5KDkLilI5tMTVXi/kCDXp2RPaXRXgI+k40FptEQAiRhL2cxwfSa/2Hle0nODr27TG8sR/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL_NQViệt\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Hướng dịch vụ\\BTL1\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
