@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="./assets/css/GiỏHàng.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            
+            <div class="header1">
+                <a href="index.html" class="hugu"><img style="width: 140px;height: 40px;position: absolute;margin-left: 700px;margin-top: 20px;" src="./assets/img/hugu.webp" alt=""></a>
+    
+                <ul id="nav">
+                    <li><a href="https://www.facebook.com/hugu.official"><img class="icon" src="./assets/img/iconFB.webp" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/hugu_official/"><img class="icon" src="./assets/img/iconIG.webp" alt=""></a></li>
+                    <li><a class="sđt" href="">0393557711</a></li>
+                </ul>
+                <ul id="nav2">
+                    <li>
+                        <a href="">SHOP <i class="nav-arrow-down ti-angle-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="">ALL</a></li>
+                            <li><a href="">SHIRT</a></li>
+                            <li><a href="DanhMục.html">T-SHIRT | POLO</a></li>
+                            <li><a href="">HOODIE | SWEATER</a></li>
+                            <li><a href="">OUTERWEAR</a></li>
+                            <li><a href="">PANTS | JEANS</a></li>
+                            <li><a href="">SHORT</a></li>
+                            <li><a href="">ACCESSORIES</a></li>
+                            <li><a href="">BAGS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">COLLECTION <i class="nav-arrow-down ti-angle-down"></i> </a>
+                        <ul class="subnav subnav2">
+                            <li><a href="">2020 LOOKBOOK SUMMER</a></li>
+                            <li><a href="">2020 LOOKBOOK WINTER</a></li>
+                            <li><a href="">2021 MINI COLLECTION</a></li>
+                            <li><a href="">2022 BACK TO ESSENTIAL</a></li>
+                            <li><a href="">2022 AW THIS IS WHY WE MET</a></li>
+                            <li><a href="">2022 THATSWHATIWANT</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">ABOUT US <i class="nav-arrow-down ti-angle-down"></i> </a>
+                        <ul class="subnav subnav2">
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Hệ thống cửa hàng</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">HAPPY BIRTHDAY - HUGU MEMBER</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="">SALE</a></li>
+                </ul>
+                <ul id="nav3">
+                    <li><a class="Sign__in" href="">Sign in</a></li>
+                    <li><a href=""><img class="iconR" src="./assets/img/iconCart.webp" alt=""></a></li>
+                    <li><a href=""><img class="iconR" src="./assets/img/iconSeach.webp" alt=""></a></li>
+                </ul>
+            </div>
+            
+            
+        </header>
+
+        <div class="frist-link">
+            <div class="container">
+                <ul>
+                    <li style="margin-left: 200px;"><a href="./index.html" title="Trang chủ"><span>Trang chủ</span></a> <i class="ti-angle-right" style="font-size: 8px;margin-left: 5px;color: #666870;margin-right: 8px;"></i></li>
+                    
+                    <li style="color: #ff4500;font-size: 14px;margin-top: 1px;">Giỏ hàng của bạn - HUGU</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main container">
+            <div class="first">
+                <h1>Giỏ hàng <span>( 2 sản phẩm )</span></h1>
+            </div>
+            <div style="display: flex;">
+                <div class="item">
+                    <div class="item1">
+                        <a href="" title="THE BLUR"><img style="height: 180px;width: 180px;" src="./assets/img/ChiTiết-1.webp" alt=""></a>
+                        <div style="margin-left: 50px;margin-top: 30px;">
+                            <ul style="display: block;">
+                                <li style="color: #242424;width: 82px;"><a href="">THE BLUR</a></li>
+                                <li style="color: #242424;">L</li>
+                                <li id="li"><a href="" style="color: #ff4500;">Xóa</a></li>
+                            </ul>
+                        </div>
+                       
+                        <div class="price">
+                            289,000đ
+                        </div>
+
+                        <div id="buy-amount">
+                            <button class="minus-bt" onclick="handleMinus()"><i class="ti-minus"></i>
+                            </button>
+                            <input type="text" name="amount" id="amount" value="1">
+                            <button class="plus-btn" onclick="handlePlus()"><i class="ti-plus"></i>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="item2">
+                        <a href="" title="THE GOODNESS"><img style="height: 180px;width: 180px;" src="./assets/img/img-Giỏ Hàng - 2.webp" alt=""></a>
+                        <div style="margin-left: 50px;margin-top: 30px;">
+                            <ul style="display: block;">
+                                <li style="color: #242424;width: 106px;"><a href="">THE GOODNESS</a></li>
+                                <li style="color: #242424;">L</li>
+                                <li id="li"><a href="" style="color: #ff4500;">Xóa</a></li>
+                            </ul>
+                        </div>
+                       
+                        <div class="price1">
+                            289,000đ
+                        </div>
+
+                        <div id="buy-amount2">
+                            <button class="minus-bt2" onclick="handleMinus2()"><i class="ti-minus"></i>
+                            </button>
+                            <input type="text" name="amount2" id="amount2" value="1">
+                            <button class="plus-btn2" onclick="handlePlus2()"><i class="ti-plus"></i>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+                <div class="money">
+                    <div class="money-1">
+                        <p style="padding-bottom: 20px;"><span style="color: #1c1c1c;font-weight: 500;">Tạm tính: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-weight: 700;right: 0;">578,000đ</span></span></p>
+                    </div>
+                    <div class="money-2">
+                        <p style="padding-bottom: 20px;"><span style="color: #1c1c1c;font-weight: 500;">Thành tiền: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <span style="font-weight: 700;right: 0;font-size: 20px;color: #ff4500;">578,000đ</span></span></p>
+                    </div>
+                    <div class="money-3">
+                        <div id="ThanhToan"><a href="ĐơnHàng.html">Thanh toán ngay</a></div>
+                        <div id="Mua"><a href="index.html">tiếp tục mua hàng</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="final">
+            <h3>Ghi chú đơn hàng</h3>
+            <div style="height: 70px;margin-top: 20px;margin-bottom: 40px;">
+                <textarea name="" id="" cols="30" rows="4" placeholder="Ghi chú" style="padding: 15px 0 0 15px;width: 100%;border-color: #e1e1e1;"></textarea>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <body style="display: block;">
+            
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="footer-wrap">
+                    <div class="footer-wrap-item">
+                        <h4>Thông tin liên hệ</h4>
+                        <div style="font-size: 14.5px;line-height: 25px;font-weight: 400;">
+                            - Công ty TNHH TM DV Hugu <br> 
+                            - Mã số doanh nghiệp: 0316873321 <br> <br>  
+                            - Hệ thống cửa hàng <br> 
+                            Store 1: 487 Sư Vạn Hạnh - phường 12 - Quận 10 <br> 
+                            Store 2: 109 Quang Trung - phường 10 - Gò Vấp <br> 
+                            Store 3: The New Playground Lê Lai - Quận 1 <br> 
+                            - Hotline: 0393557711 <br> 
+                            - Email: hugu.saigon@gmail.com
+                            
+                        </div>
+                    </div>
+                    <div class="footer-wrap-item">
+                        <div class="footer-link">
+                            <h4>Chính sách</h4>
+                            <div class="footer-content">
+                                <ul>
+                                    <li class="item">
+                                        <a href="" title="Giới thiệu">- Giới thiệu</a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="" title="Chính sách đổi trả">- Chính sách đổi trả</a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="" title="Chính sách bảo mật">- Chính sách bảo mật</a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="" title="Điều khoản dịch vụ">- Điều khoản dịch vụ</a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="" title="Thông tin liên hệ">- Thông tin liên hệ</a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="" title="Tuyển dụng">- Tuyển dụng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-wrap-item">
+                        <h4>
+                            FOLLOW US ON SOCIAL MEDIA
+                        </h4>
+                        <div class="media">
+                            <a href="">
+                                <img style="width: 30px;height: auto;max-width: 100%;vertical-align: middle;" src="./assets/img/FB.webp" alt="">
+                            </a>
+                            <a href="">
+                                <img style="width: 30px;height: auto;max-width: 100%;vertical-align: middle;" src="./assets/img/IG.webp" alt="">
+                            </a>
+                            <a href="">
+                                <img style="width: 30px;height: auto;max-width: 100%;vertical-align: middle;" src="./assets/img/SHOPEE.webp" alt="">
+                            </a>
+                            <a href="">
+                                <img style="width: 30px;height: auto;max-width: 100%;vertical-align: middle;" src="./assets/img/LAZADA.webp" alt="">
+                            </a>
+                            <a href="">
+                                <img style="width: 30px;height: auto;max-width: 100%;vertical-align: middle;" src="./assets/img/ZALO.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="right">
+                <ul>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/right-zalo.webp" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Chat Zalo với chúng tôi 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/right-shopee.webp" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Mua hàng qua Shopee 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/right-lazada.webp" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Mua hàng qua Lazada 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/icon_phone.png" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Gọi ngay cho chúng tôi 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/icon-letter.png" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Đăng ký thông tin và để lại lời nhắn 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="right-item">
+                        <a href="">
+                            <span>
+                                <img src="./assets/img/map.jpg" alt="">
+                            </span>
+                            <span class="chat-with">
+                                Xem địa chỉ doanh nghiệp 
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+
+        <div class="mes">
+            <img src="./assets/img/mes.jpg" alt="">
+        </div>
+
+        <div class="love">
+            <img src="./assets/img/love.jpg" alt="">
+        </div>
+
+    </body>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('.header1').addClass('sticky');
+                }else{
+                    $('.header1').removeClass('sticky');
+                }
+            });
+
+        });
+
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('.right').addClass('sticky1');
+                }else{
+                    $('.right').removeClass('sticky1');
+                }
+            });
+
+        });
+        let amountElement = document.getElementById('amount');
+let amount = amountElement.value
+// console.log(amount)
+let render = amount => {
+  amountElement.value = amount
+}
+// Handle plus
+let handlePlus = () => {
+  console.log(amount)
+  amount++
+  render(amount)
+}
+
+// Handle minus
+let handleMinus = () => {
+  if(amount>1)
+  amount--
+  render(amount)
+
+}
+
+amountElement.addEventListener('input', () => {
+          amount = amountElement.value;
+          amount = parseInt(amount);
+          amount = isNaN(amount)?1:amount;
+          render(amount);
+          
+});
+
+
+
+let amount2Element = document.getElementById('amount2');
+let amount2 = amount2Element.value
+// console.log(amount)
+let render2 = amount2 => {
+  amount2Element.value = amount2
+}
+
+// Handle plus
+let handlePlus2 = () => {
+  
+  amount2++
+  render2(amount2)
+}
+
+// Handle minus
+let handleMinus2 = () => {
+  if(amount2>1)
+  amount2--
+  render2(amount2)
+
+}
+
+amount2Element.addEventListener('input', () => {
+          amount2 = amount2Element.value;
+          amount2 = parseInt(amount2);
+          amount2 = isNaN(amount2)?1:amount2;
+          render2(amount2);
+          
+});
+
+    </script>
+</body>
+</html>

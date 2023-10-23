@@ -1,0 +1,44 @@
+#login-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#showPasswordLabel {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#notification {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+    background-color: #d9534f;
+    color: white;
+}
+
+
+
